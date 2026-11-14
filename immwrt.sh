@@ -333,7 +333,8 @@ add_custom_packages() {
     git_clone https://github.com/eamonxg/luci-app-aurora-config
     git_clone https://github.com/sirpdboy/luci-theme-kucat
     git_clone https://github.com/sirpdboy/luci-app-kucat-config
-
+    git_clone https://github.com/itsmaiGe/luci-theme-7dollar
+    
     # 晶晨宝盒
     clone_all https://github.com/ophub/luci-app-amlogic
     sed -i "s|firmware_repo.*|firmware_repo 'https://github.com/$GITHUB_REPOSITORY'|g" $destination_dir/luci-app-amlogic/root/etc/config/amlogic
