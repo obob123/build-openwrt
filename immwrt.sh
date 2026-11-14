@@ -326,7 +326,7 @@ add_custom_packages() {
     git_clone https://github.com/immortalwrt/homeproxy luci-app-homeproxy
 
     # Themes
-    git_clone https://github.com/kiddin9/luci-theme-edge
+    git_clone https://github.com/anothaDev/luci-theme-vantage
     git_clone https://github.com/jerrykuku/luci-theme-argon
     git_clone https://github.com/jerrykuku/luci-app-argon-config
     git_clone https://github.com/eamonxg/luci-theme-aurora
